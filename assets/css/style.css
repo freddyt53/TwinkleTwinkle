@@ -64,6 +64,7 @@ body{
     color: rgb(88, 77, 11);
     /* text-align: center; */
     font-style: bold; 
+
 }
 
 #gift-table{
@@ -79,6 +80,7 @@ body{
     opacity: .80;
     margin-bottom: 10%;   
     background-color: rgba(255, 255, 255, .45);
+    font-size: 21px;
 }
 
 #tBody{
