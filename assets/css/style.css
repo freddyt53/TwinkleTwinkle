@@ -1,0 +1,151 @@
+#jumbo{
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(124, 108, 14);
+    margin-top: 10%;
+    width: 100%;
+    padding: 0;
+    background-color: rgba(255, 255, 255, .35);
+    font-size: 1.4rem;
+}
+
+#info{
+    color: rgb(124, 108, 14);
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, .35);
+    text-align: center;
+}
+
+
+#navBar {
+    background-color: rgba(255, 255, 255, .35);
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+#navBar2{
+    background-color: rgba(255, 255, 255, 0.35);
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+body{
+    background-image: url("../images/gold-star.jpg");
+    background-size: cover;
+    font-family: 'Kaushan Script', cursive;
+    height: 100%;
+}
+
+.giftContainer{
+    background-color: rgba(255, 255, 255, .85);
+    margin-top:20px;
+    padding:20px;
+    border-style: solid;
+    /* border-radius: 1.5%; */
+    border-color: rgb(124, 108, 14);
+    color:rgb(124, 108, 14);
+    width: 90%;
+
+}
+
+#list{
+    margin-top:20px;
+    padding:20px;
+    border-style: solid;
+    border-color: rgb(124, 108, 14); 
+    /* border-:radius 1.2%; */
+    color: rgb(124, 108, 14);   
+}
+
+#gift-table{
+    margin-top: 10%;
+    padding:10px;
+    border-style: solid; 
+    border-color: rgb(124, 108, 14);
+    color: rgb(90, 78, 9);   
+    background-image: url("../images/congrats_baby_girl.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .70;
+    margin-bottom: 10%;   
+}
+
+#tBody{
+    margin-top:20px;
+    padding:10px;
+    border-style: double; 
+    color: rgb(124, 108, 14);   
+}
+
+#giftInput{
+    width: 60%
+}
+
+#submitGift {
+    text-align: justify;
+}
+
+h1{
+text-align: center;
+}
+
+
+#form{
+    color: rgb(124, 108, 14);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, .65);
+    width: 90%;
+}
+
+
+#textArea{
+    width: 100%;
+    height: 145px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+    
+
+
+/* @media only screen and (max-width: 580px) {
+    #jumbo{
+        font-family: 'Kaushan Script', cursive;
+        color: rgb(124, 108, 14);
+        margin-top: 2%;
+        width: 100%;
+        padding: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: .7em;
+    }
+    
+    #navBar{
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 30%;
+        margin-top: 3%;
+    }
+    
+    
+    #navBar2{
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 50%;
+        margin-top: 2%;
+    }
+    
+    
+    body{
+        background-image: url("../images/gold-star.jpg");
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-size: cover;
+        font-family: 'Kaushan Script', cursive;
+        height: 100%;
+        font-size: 75%;
+    }
+
+  } */

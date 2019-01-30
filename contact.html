@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen" href="assets/css/style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container text-center" id="navBar2">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+            <li class="nav-item">
+                <a class="nav-link" style="color: rgb(124, 108, 14)!important" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="color: rgb(124, 108, 14)!important" href="contact.html">RSVP</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container " id="form">
+        <h1>Party information</h1>
+        <h2>Date:</h2>
+        <p>Sunday April 7,2019</p>
+        <h2>Time:</h2>
+        <p>1:00 PM</p>
+        <h2>Location:</h2>
+        <p>2538 Danube Way, Oxnard CA.</p>
+        <p>(I will be placing ballons to reference the parking area as well as leading to my home)</p>
+        <!-- <div class="container clearfix contact-container"> -->
+        <form method="POST" action="https://formspree.io/mea813@gmail.com">
+            <h1 class="text-center">RSVP</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" name="name" id="userInput" style="color:rgb(124, 108, 14)" class="form-control" placeholder="Type Name Here">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Party</label>
+                        <input type="text" name="lastname" id="userInput" style="color: rgb(124, 108, 14)" class="form-control" placeholder="Number of Guest">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <textarea name="message" id="textArea" style="color:rgb(124, 108, 14)" placeholder="Type Message Here"></textarea>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="send" id="sendInput" style="background-color: rgb(124, 108, 14)" class="btn btn-primary sendInput"></input>
+        </form>
+    </div>
+</body>
+
+</html>

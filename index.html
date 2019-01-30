@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cruz Baby Shower</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <!-- styling css -->
+    <link rel="stylesheet" media="screen" href="assets/css/style.css" />
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="jumbotron jumbotron-fluid text-center" id="jumbo">
+                <h1 class="display-4">Diaper and Wipe Party</h1>
+                <p class="lead">Please join us to celebrate in honor of <b>Lizette</b> and <b>Emmanuel Cruz</b></p>   
+            </div>
+        </div>
+        <div class="container" id="info">
+            <p>Please bring a pack of diapers of any size and a package of wipes, thank you.</p>
+        </div>
+        <div class="container text-center" id="navBar">
+            <ul class="nav justify-content-center">
+
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(124, 108, 14)!important" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: rgb(124, 108, 14)!important" href="contact.html">RSVP</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container giftContainer">
+        <form id="giftInputForm" style="color:rgb(124, 108, 14)!important">
+            <h1>Gift List</h1>
+            <p>If you plan on buying baby clothes please get a larger size.  Since they still have a lot of clothes that was Liea's, Thank you. </p>
+            <ul style="list-style-type:circle;" id="list">
+                <li><b>Gift cards to Target/Walmart</b></li>
+                <li>Basic Necessities</li>
+                <li>Bibs</li>
+                <li>Baby cream</li>
+                <li>Baby bottles</li>
+                <li>Baby bottle scruber</li>
+                <li>Baby Carrier</li>
+                <li>Baby socks</li>
+                <li>Diaper rash cream</li>
+                <li>Receiving Blankets</li>
+            </ul>
+            <label for="issueDateInput"><i>Gift submission</i></label><br>
+            <input type="text" class="form-control" id="giftInput" placeholder="Enter Gift Here">
+            <br>
+            <button type="submit" class="btn btn-success" id="submitGift" style='background-color: rgb(124, 108, 14)'>Submit</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table" id='gift-table'>
+                    <thead style="color:rgb(124, 108, 14)">
+                        <tr>
+                            <th><i>List of Gifts</i></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </form>
+    </div>
+
+    </div>
+</body>
+<script src="assets/javascript/twinkle.js"></script>
+
+</html>
