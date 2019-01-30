@@ -31,6 +31,10 @@
     margin-bottom: 3%;
 }
 
+#menuButtons{
+    font-size: 50%;
+}
+
 
 body{
     background-image: url("../images/gold-star.jpg");
